@@ -98,7 +98,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-    res.send('Running Food Runner Server');
+    res.send('Running TourMates Server');
 });
 
 app.listen(port, () => {
